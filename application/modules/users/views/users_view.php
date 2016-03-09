@@ -23,3 +23,5 @@
         </table>        
     </div>
 </div>
+
+<?php $this->load->view('users/modals/add_modal'); ?>

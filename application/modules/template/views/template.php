@@ -20,27 +20,40 @@
 
     <!-- Datatables core JavaScript
     ================================================== -->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>vendors/datatables/DataTables-1.10.9/css/dataTables.bootstrap.css">
-    <script type="text/javascript" language="javascript" src="<?php echo base_url()?>vendors/datatables/DataTables-1.10.9/js/jquery.dataTables.js"></script>
-    <script type="text/javascript" language="javascript" src="<?php echo base_url()?>vendors/datatables/DataTables-1.10.9/js/dataTables.bootstrap.js"></script>  
+    <link rel="stylesheet" type="text/css" 
+            href="<?php echo base_url()?>vendors/datatables/DataTables-1.10.9/css/dataTables.bootstrap.css">
+    <link rel="stylesheet" type="text/css" 
+            href="<?php echo base_url()?>vendors/datatables/ColReorder-1.2.0/css/colReorder.bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" 
+            href="<?php echo base_url()?>vendors/datatables/Buttons-1.0.3/css/buttons.bootstrap.css">
+    <script type="text/javascript" language="javascript" 
+            src="<?php echo base_url()?>vendors/datatables/DataTables-1.10.9/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" language="javascript" 
+            src="<?php echo base_url()?>vendors/datatables/DataTables-1.10.9/js/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" language="javascript" 
+            src="<?php echo base_url()?>vendors/datatables/ColReorder-1.2.0/js/dataTables.colReorder.js"></script>  
+    <script type="text/javascript" language="javascript" 
+            src="<?php echo base_url()?>vendors/datatables/Buttons-1.0.3/js/dataTables.buttons.min.js"></script>  
+    <script type="text/javascript" language="javascript" 
+            src="<?php echo base_url()?>vendors/datatables/Buttons-1.0.3/js/buttons.bootstrap.min.js"></script>  
+    <script type="text/javascript" language="javascript" 
+            src="<?php echo base_url()?>vendors/datatables/JSZip-2.5.0/jszip.min.js"></script>  
+    <script type="text/javascript" language="javascript" 
+            src="<?php echo base_url()?>vendors/datatables/pdfmake-0.1.18/build/pdfmake.min.js"></script>  
+    <script type="text/javascript" language="javascript" 
+            src="<?php echo base_url()?>vendors/datatables/pdfmake-0.1.18/build/vfs_fonts.js"></script>  
+    <script type="text/javascript" language="javascript" 
+            src="<?php echo base_url()?>vendors/datatables/Buttons-1.0.3/js/buttons.html5.min.js"></script>  
+    <script type="text/javascript" language="javascript" 
+            src="<?php echo base_url()?>vendors/datatables/Buttons-1.0.3/js/buttons.print.min.js"></script>  
+    <script type="text/javascript" language="javascript" 
+            src="<?php echo base_url()?>vendors/datatables/Buttons-1.0.3/js/buttons.colVis.min.js"></script>  
 
     <style>
       body{
         padding-top: 70px;
       }
     </style>
-    <script>
-      $(function(){
-        $('.navbar li').click(function(e) {
-            $('.navbar li.active').removeClass('active');
-            var $this = $(this);
-            if (!$this.hasClass('active')) {
-                $this.addClass('active');
-            }
-            e.preventDefault();
-        });
-      })
-    </script>
 
   </head>
 
