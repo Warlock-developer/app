@@ -1,7 +1,7 @@
 <script type="text/javascript" src="<?php echo base_url() ?>assets/users.js"></script>
 <div class="row">
     <div class="col-lg-12">
-        <table id="table-users" class="table table-striped table-bordered" cellspacing="0" width="100%">
+        <table id="table-users" class="table table-striped table-bordered table-condensed" cellspacing="0" width="100%">
             <thead>
                 <tr>
                     <th>Usuario</th>
